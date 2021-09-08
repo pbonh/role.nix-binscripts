@@ -1,0 +1,3 @@
+---
+dotfiles_user_home: "{{ ansible_env.HOME }}"
+bin_directory: "{{ dotfiles_user_home }}/.local/bin"
