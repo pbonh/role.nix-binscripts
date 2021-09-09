@@ -12,7 +12,7 @@
   when: item.state == 'file'
 
 - name: Scripts | Change Script Permissions
-  file: 
+  file:
     path: "{{ bin_directory }}"
     mode: +x
     state: directory
